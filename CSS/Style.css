@@ -163,130 +163,187 @@ footer{
     justify-content: space-between;
 }
 
-.card-01 img{
-    display: inline-block;
-    position: relative;
+.card-01{
+    background-image: url(../IMG/ps5.svg);
+    background-repeat: no-repeat;
+    background-size: 700px, 500px;
     width: 700px;
+    height: 500px;
 }
 
-.card-01 h1{
-    position: absolute;
-    top: 450px;
-    right: 800px;
-    font-size: 20px;
+.titulo-ps5{
+    display: flex;
+    width: 550px;
+    align-items: center;
+    justify-content: end;
+    padding-top: 100px;
 }
 
-.card-01 h2{
-    position: absolute;
-    top: 600px;
-    right: 700px;
-    font-size: 20px;
-}
-.card-01 h3{
-    position: absolute;
-    top: 620px;
-    right: 700px;
-    font-size: 20px;
-}
-
-.card-01 button{
-    position: absolute;
-    top: 700px;
-    right: 800px;
-    width: 140px;
-    height: 35px;
-    border-radius: 15px;
-    font-size: 15px;
+.titulo-ps5 h1{
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.texto-ps5{
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    margin-left: 300px;
+    padding-top: 20px;
+}
+
+.titulo-ps5 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.botao-ps5{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-left: 270px;
+    padding-top: 50px;
+}
+
+.botao-ps5 button{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
     color: #000;
-    background-color: #fff;
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
-.card-02 img{
-    height: 480px ;
+.texto-ps5 h1{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
 }
 
-.card-03 img{
-    height: 400px;
+.card-02{
+    background-image: url(../IMG/rtx3080.svg);
+    background-repeat: no-repeat;
+    background-size: 350px, 480px;
+    width: 350px;
+    height: 480px;
+}
+
+.card-03{
+    background-image: url(../IMG/Hogwarts\ legacy\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 500px, 300px;
     width: 500px;
+    height: 300px;
 }
 
-.card-04 img{
-    height: 400px;
+.card-04{
+    background-image: url(../IMG/Fifa2023\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 500px, 300px;
     width: 500px;
+    height: 300px;
 }
+
 
 .texto-lancamentos{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto", sans-serif;
 }
 
-.lancamentos{
+.container-banner{
+    width: 1296px;
     display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.container-banner h1{
+    font-size: 10px;
+}
+
+.lancamento01{
+    background-image: url(../IMG/Group\ 96.svg);
+    background-repeat: no-repeat;
+    background-size: 250px, 500px;
+    width: 250px;
+    height: 390px;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lancamento02{
+    background-image: url(../IMG/Group\ 98.svg);
+    background-repeat: no-repeat;
+    background-size: 250px, 500px;
+    width: 250px;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lancamento03{
+    background-image: url(../IMG/Group\ 99.svg);
+    background-repeat: no-repeat;
+    background-size: 250px, 500px;
+    width: 250px;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    width: 100%;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    justify-content: center;
+    padding-top: 50px;
 }
 
-
-.lancamento01 img{
-    display: inline-block;
-    position: relative;
-    width: 250px;
-    height: 500px;
+.botao-comprar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
 }
 
-.lancamento01 h1{
-    position: absolute;
-    top: 1662px;
-    right: 1140px;
-    font-size: 10px;
-    color: #858585;
-}
-
-.lancamento01 button{
-    position: absolute;
-    top: 1680px;
-    right: 1120px;
-    font-size: 20px;
-    font-weight: 900;
-    color: #FF5C00;
-    width: 150px;
-    height: 35px;
-    border-radius: 15px;
-    font-family: 'Poppins', sans-serif;
-    background-color: #F3F3F3;
-}
-
-.lancamento01 h2{
-    position: absolute;
-    top: 1740px;
-    right: 1120px;
-    font-size: 10px;
-    width: 150px;
-    height: 3px;
-}
-
-
-.lancamento01 h3{
-    position: absolute;
-    top: 1760px;
-    right: 1120px;
-    font-size: 10px;
-    width: 150px;
+.botao-comprar button{
+    width: 120px;
     height: 30px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #F3F3F3;
+    color: #FF5C00;
 }
 
-.lancamento02 img{
-    width: 250px;
-    height: 500px;
+.info-01{
+    display: flex;
+    width: 100%;
+    height: 15px;
+    align-items: center;
+    justify-content: start;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
-.lancamento03 img{
-    width: 250px;
-    height: 500px;
+.unidades{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.unidades h1{
+    font-size: 15px;
 }
